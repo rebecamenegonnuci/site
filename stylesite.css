@@ -1,0 +1,97 @@
+body {
+	color:white ; /*Cor da letra de todo o corpo do site/pagina */
+	background: #dcdcdc; /*Cor de fundo */
+	background-image: url("fichas.jpg"); /*Adiciona a imagem no fundo */ 
+	background-repeat: no-repeat; /*Não repete a imagem de fundo */
+	background-position: 0px 0px; /*Posição da imagem de fundo */
+}
+
+
+.topo{
+	width:100%; /*Largura */
+	height:148px; /* Altura */
+	background: #2D572C; /*Cor de fundo */
+	font-size: 65px; /* Tamanho da fonte */
+	font-weight:65px; /*Tamanho do negrito (grossura da letra) , podendo ser em px ou colocar automatico que é bold */
+	font-family:cambria, candara; /* Tipo de fonte  */
+	text-align:center; /* Alinhamento do texto no centro do Div */
+	padding-top:74px; /* Espaçamento topo entre a borda e o texto, dentro do quadrado do div*/
+	border:10px solid #000000; /* Inserir borda, sendo que 10px é o tamanho da grossura, solid é o estilo da borda, e #000000 é a cor */
+}
+
+
+.menud {
+	width:200px; /*Largura */
+	height:600px; /* Altura */
+	background-color: #2D572C; /*Cor de fundo */
+	float:left; /* Div fica "flutuando", sendo que quando inserir outra div ira para o meio e nao para baixo*/
+	border: 10px solid #000000;
+	/*color:#000080; Cor da letra */
+	font-size:24px; /*Tamanho da letra*/
+	text-align:center; /*Alinhamento texto*/
+	font-family: impact; /*Tipo da fonte da letra */
+	padding-top:35px; /* Espaçamento topo entre a borda e o texto, dentro do quadrado do div*/
+	font-weight:50px; /*Tamanho do negrito (grossura da letra) , podendo ser em px ou colocar automatico que é bold */
+	margin-top:20px; /*Espaçamento entre uma borda e outra */
+
+}
+
+.conteudo {
+	width:85%; /*Largura */
+	height:148px; /* Altura */
+	font-size:30px; /*Tamanho da fonte */
+	color: #8899AA; /*Cor letra */
+	font-weight:bold; /* Negrito */
+	text-align:left; /*Alinhamento do texto */
+	margin-top:30px; /* Espaçamento entre uma borda/texto e outra*/
+	margin-right:0px; /*Espaçamento a esquerda */
+	margin-left: 235px /*Espaçamento a direita */
+}
+
+.titulo{
+	width:85%; /*Largura */
+	height:30px; /* Altura */
+	font-size:40px; /*Tamanho da fonte */
+	/* background-color: #FFFFFF; */
+	color: #8899AA; /*Cor letra */
+	font-weight:bold; /* Negrito */
+	text-align:center; /*Alinhamento do texto */
+	margin-top:30px; /* Espaçamento entre uma borda/texto e outra*/
+	margin-right:0px; /*Espaçamento a esquerda */
+	margin-left: 235px /*Espaçamento a direita */
+}
+
+.contato {
+	width:50%; /*Largura */
+	height:250px; /* Altura */
+	font-size: 35px ; 
+	text-align:left;
+	margin-top:5px;
+	margin-right:0px;
+	margin-left:600px;
+}
+
+
+.botao {
+	width:45%; /*Largura */
+	height:80px; /* Altura */
+	font-size: 35px ; /*Tamanho da fonte */
+	text-align:center;
+	margin-top:85px;
+	margin-right:0px;
+	margin-left:500px;
+}
+
+.imagemcontato {
+	background-image: url("vetor.jpg");
+	opacity:0.8; 
+	background-repeat: no-repeat;
+	width:40%; /*Largura */
+	height:100px; /* Altura */
+	margin-top:20px;
+	margin-left:538px;
+	font-size:75px;
+	text-align: center;
+	font-family:cursive;
+	color:#B0E0E6;
+}
